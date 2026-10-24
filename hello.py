@@ -32,4 +32,8 @@ set = set()
 set.add(1)
 set.add(2)
 set.add(3)
+
+set.remove(2)
 print(set)
+
+print(f'the number of elements in the set is {len(set)}')
