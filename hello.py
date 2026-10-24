@@ -14,3 +14,15 @@ elif n>0:
 else:
     print('The given number is zero')
     
+#sequence 
+
+name = 'Prithvi'
+print(name[1])
+
+# list
+name = ['aman','dbs','akshat']
+print(name[1])
+
+#tuple ----- used to store multiple values which are immutable
+name = ('aman','dbs','akshat')
+print(name[1])
