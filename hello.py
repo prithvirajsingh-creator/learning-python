@@ -2,7 +2,7 @@ name = str(input('what is your name :'))
 #using formatted string (f-string) to use variables effectively in a string
 print(f'hello {name}')
 
-#using conditional statements with inout
+#using conditional statements with input
 n= int(input('enter a number :'))
 
 if n<0:
