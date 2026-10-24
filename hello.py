@@ -26,3 +26,10 @@ print(name[1])
 #tuple ----- used to store multiple values which are immutable
 name = ('aman','dbs','akshat')
 print(name[1])
+
+# set ----- used to store multiple values which are unique and unordered
+set = set()
+set.add(1)
+set.add(2)
+set.add(3)
+print(set)
