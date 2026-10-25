@@ -20,3 +20,8 @@ def f(person):
 people.sort(key=f)
 
 print (people)
+
+#an alternate methode to do sorting
+
+people.sort(key = lambda person : person['name'])
+print(people)
