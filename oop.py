@@ -1,4 +1,4 @@
-class point():
+'''class point():
     def __init__(self , x,y):
         self.x = x
         self.y = y
@@ -6,7 +6,7 @@ class point():
 p = point (2,8)
 print(p.x)
 print(p.y)
-
+'''
 # another example 
 class Flight():
     def __init__(self,capacity):
@@ -23,3 +23,12 @@ class Flight():
         return self.capacity - len(self.passangers)
     
 flight =Flight(3)
+
+people = ['harry','ron','hermione','ginny']
+for person in people :
+    success = flight.add_passanger(person)
+    if success:
+        print(f'Added {person} to flight successfully.')
+    else:
+        print(f'No available seats for {person}')
+    
