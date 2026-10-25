@@ -1,6 +1,6 @@
 # getting cleaner error
 import sys
-
+# value error
 try:
     x= int(input('X: '))
     y= int(input('Y: '))
